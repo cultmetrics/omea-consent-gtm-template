@@ -122,6 +122,13 @@ function runAll(templatePath = path.join(ROOT, 'template.tpl')) {
     if (!info.brand || !info.brand.id || !/^data:image\/png;base64,/.test(info.brand.thumbnail || '')) throw new Error('brand / thumbnail missing');
     if (!Array.isArray(info.categories) || !info.categories.length || info.categories.length > 3) throw new Error('1–3 categories');
     if (!info.displayName || !info.description) throw new Error('displayName / description');
+    // GTM's Template Editor: the description holds at most 200 characters.
+    if ([...info.description].length > 200) throw new Error('description over 200 characters (' + [...info.description].length + ')');
+  });
+  // GTM's Template Editor rejects a test name with ':' ("The name contains invalid character").
+  check('static: test names have no characters GTM rejects', () => {
+    const bad = (tpl.___TESTS___ || '').split('\n').filter((l) => /^- name: /.test(l) && l.slice(8).includes(':'));
+    if (bad.length) throw new Error('":" in ' + bad.map((l) => l.slice(8)).join(' | '));
   });
   check('static: every data.<field> the code reads is a template parameter', () => {
     const names = new Set();

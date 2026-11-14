@@ -23,7 +23,7 @@ ___INFO___
     "displayName": "Cultmetrics",
     "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAABmJLR0QA/wD/AP+gvaeTAAAEr0lEQVR4nO3cz0syWxzH8ZnUsjZqmxbZH6DQPuKSf0GLqFlkpKVgGNmqX1DrbBPRqkgTtCJo06JF7QS5C6FNtHFdkJAU2Sbo18xdSNJ1Zrw+4JzPmbnf16rG4HzxjWfs5POIDodDIDgd6AH+7ygAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAmJ3BGqFQaGhoiMFC7VUsFnO5nNGrsAgwMjISCoUYLNRenZ2dDALQFgRGAcAoABgFAGNxE1ZTFKVarUKW1uN2u0VRZL8uJsDr62tfXx9kaT2VSsXtdrNfl7YgMAoARgHAKAAYBQCjAGAUAIwCgFk/gM/ns9ls6Cl0WTyA1+vN5/NXV1f9/f3oWbRZOYDdbj8+Pu7t7Q0EAjc3NxMTE+iJNFg5wPr6+vDwcO1rl8t1cnKyu7vrdDqxUzWwbIBAILC2tvb7iiiK8Xg8k8mgRtJkzQAejyeTyajvve/v71tbW5CR9FgzQDqdHhgYUF9fWVm5vb1lP08TFgwQj8dHR0fV1y8uLvb399nP05zVAvj9fs1Nplwuz83NKYrCfqTmLBXA6XQeHR11d3c3XJdleXZ29unpCTJVc5YKsLOzMzg4qL6+ubmZz+fZz9MK6wQYGxuLRqPq69fX18lkkv08LbJIAK/Xu7e3p75erVaDweDn5yf7kVpkhQD1Iwf1QwsLC3d3d+xHap0VAmxsbNSPHH5LpVJnZ2fs5/kj/Aaw2WytHCMHAoHV1VX19VKptLy8bMBcbcZpAJvNdnh4mMvl7PZmHx1rcuQwPT399vZm5IztgflkXHO1Zz8YDNa+DYfDX19fmj9poiMHPdy9AhqefUmSstms5utgfn5e88jh8vKSwyMHPXwFaHj2azQb+P1+zXf35XI5Go1yeOSgh68AMzMzDc9+jSRJqVSqvtf39PScnp6qjxy+v79DoRCfRw56+AqQyWQODg40H5qamqrfk7e3t30+n/pnkslkoVAwdsR24+smrChKIpEQBCEWi6kflSRJEITz83MzHjno4SuAIAiKoiwuLnZ1dYXDYfWjkiSNj4+rr7+8vExOTvJ85KCHry2oRpblWCymtxd1dGjMnEgk7u/vDZ7LEDwGEH72Ir0GDdLpNP9HDno4DSC03KBUKi0tLbEZyQj8BhBaaGCiIwc9XAcQ/quBiY4c9PAeQNBvYK4jBz0mCCD8vDfNZrP1Kw8PD5FIxERHDnrMEUD493tTWZYjkcjz8zN6qDbg7hexJuq/J1cqFW4/5fCnzBRA+NmLIP+ngEFMFkAQBFmW0SO0k2nuAVZFAcAoABgFAMPchF0u1+PjI2RpPS6XC7IuJoAoih6PB7I0b2gLAqMAYBQAjAKAsbgJFwqFj48PBgu1V7FYZLCK6HA4GCxD9NAWBEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAM/w09OVv8/27rd88fxl7WEmvADAKAEYBwCgAGP1FDIxeAWAUAIwCgFEAMAoARgHAKAAYBQCjAGAUAIwCgFEAMAoARgHAKAAYBQCjAGAUAIwCgFEAsH8APY9b66OuIOoAAAAASUVORK5CYII="
   },
-  "description": "Google Consent Mode v2 for Omea Consent: denied defaults (per region), the visitor's stored choice and every later change, ads_data_redaction and url_passthrough. Fire on Consent Initialization – All Pages.",
+  "description": "Google Consent Mode v2 for Omea Consent: denied defaults (per region), the visitor's stored choice and every later change. Fire on Consent Initialization – All Pages.",
   "containerContexts": [
     "WEB"
   ]
@@ -932,7 +932,7 @@ scenarios:
     runCode(mockData);
     assertApi('updateConsentState').wasNotCalled();
     assertApi('gtmOnSuccess').wasCalled();
-- name: A new choice (cmp:consent) is applied; a withdrawn one denies everything
+- name: A new choice (cmp-consent event) is applied; a withdrawn one denies everything
   code: |-
     let listener;
     mock('callInWindow', (path, type, fn) => {
@@ -955,14 +955,14 @@ scenarios:
     cookieValue = undefined;
     listener();
     assertApi('updateConsentState').wasCalledWith(NO_CHOICE);
-- name: A cmp:consent without any choice yet (the banner starting) changes nothing
+- name: A cmp-consent event without any choice yet (the banner starting) changes nothing
   code: |-
     let listener;
     mock('callInWindow', (path, type, fn) => { listener = fn; });
     runCode(mockData);
     listener();
     assertApi('updateConsentState').wasNotCalled();
-- name: A cmp:consent with an opt-out default record (_d) changes nothing
+- name: A cmp-consent event with an opt-out default record (_d) changes nothing
   code: |-
     let listener;
     mock('callInWindow', (path, type, fn) => { listener = fn; });

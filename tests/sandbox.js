@@ -14,6 +14,8 @@
 
   // Sections of a .tpl file: { '___INFO___': '…', … }.
   function parseTemplate(text) {
+    // GTM's Export writes a UTF-8 BOM before ___TERMS_OF_SERVICE___.
+    text = String(text).replace(/^\uFEFF/, '');
     const out = {};
     const re = /^(___[A-Z_]+___)\s*$/gm;
     const marks = [];

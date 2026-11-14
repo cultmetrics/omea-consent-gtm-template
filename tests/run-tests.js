@@ -125,10 +125,11 @@ function runAll(templatePath = path.join(ROOT, 'template.tpl')) {
     // GTM's Template Editor: the description holds at most 200 characters.
     if ([...info.description].length > 200) throw new Error('description over 200 characters (' + [...info.description].length + ')');
   });
-  // GTM's Template Editor rejects a test name with ':' ("The name contains invalid character").
+  // GTM's Template Editor rejects test names with some characters (':' and ';' seen,
+  // "The name contains invalid character"); keep to letters, digits, spaces, , - ( ).
   check('static: test names have no characters GTM rejects', () => {
-    const bad = (tpl.___TESTS___ || '').split('\n').filter((l) => /^- name: /.test(l) && l.slice(8).includes(':'));
-    if (bad.length) throw new Error('":" in ' + bad.map((l) => l.slice(8)).join(' | '));
+    const bad = (tpl.___TESTS___ || '').split('\n').filter((l) => /^- name: /.test(l) && !/^[A-Za-z0-9 ,()-]+$/.test(l.slice(8)));
+    if (bad.length) throw new Error('outside [A-Za-z0-9 ,()-]: ' + bad.map((l) => l.slice(8)).join(' | '));
   });
   check('static: every data.<field> the code reads is a template parameter', () => {
     const names = new Set();
@@ -139,6 +140,19 @@ function runAll(templatePath = path.join(ROOT, 'template.tpl')) {
     if (unknown.length) throw new Error('not parameters: ' + unknown.join(', '));
   });
   check('static: permissions parse', () => { perms = readPermissions(tpl.___WEB_PERMISSIONS___); });
+  // GTM's Template Editor: access_globals keys "must not start with any key predefined on
+  // global scope (i.e. in Window), or any JavaScript keywords" (navigator.*, addEventListener …).
+  check('static: access_globals keys are not built-in window properties', () => {
+    const builtins = ['window', 'self', 'document', 'navigator', 'location', 'history', 'screen', 'localStorage', 'sessionStorage',
+      'addEventListener', 'removeEventListener', 'dispatchEvent', 'setTimeout', 'setInterval', 'fetch', 'XMLHttpRequest',
+      'console', 'JSON', 'Math', 'Object', 'Array', 'String', 'Date', 'alert', 'open', 'close', 'name', 'top', 'parent', 'frames'];
+    const keys = (tpl.___WEB_PERMISSIONS___.match(/"string": "([^"]+)"/g) || []).map((m) => m.slice(11, -1));
+    const json = JSON.parse(tpl.___WEB_PERMISSIONS___).filter((p) => p.instance.key.publicId === 'access_globals');
+    const globals = [];
+    json.forEach((p) => (p.instance.param || []).forEach((x) => (x.value.listItem || []).forEach((it) => globals.push(it.mapValue[0].string))));
+    const bad = globals.filter((g) => builtins.includes(g.split('.')[0]));
+    if (bad.length) throw new Error('built-in: ' + bad.join(', '));
+  });
   check('static: sandboxed JS uses only supported syntax', () => {
     const bad = lintSandboxCode(code);
     if (bad.length) throw new Error('unsupported: ' + bad.join(', '));

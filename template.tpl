@@ -1,4 +1,4 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -21,9 +21,9 @@ ___INFO___
   "brand": {
     "id": "github.com_cultmetrics",
     "displayName": "Cultmetrics",
-    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAABmJLR0QA/wD/AP+gvaeTAAAEr0lEQVR4nO3cz0syWxzH8ZnUsjZqmxbZH6DQPuKSf0GLqFlkpKVgGNmqX1DrbBPRqkgTtCJo06JF7QS5C6FNtHFdkJAU2Sbo18xdSNJ1Zrw+4JzPmbnf16rG4HzxjWfs5POIDodDIDgd6AH+7ygAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAmJ3BGqFQaGhoiMFC7VUsFnO5nNGrsAgwMjISCoUYLNRenZ2dDALQFgRGAcAoABgFAGNxE1ZTFKVarUKW1uN2u0VRZL8uJsDr62tfXx9kaT2VSsXtdrNfl7YgMAoARgHAKAAYBQCjAGAUAIwCgFk/gM/ns9ls6Cl0WTyA1+vN5/NXV1f9/f3oWbRZOYDdbj8+Pu7t7Q0EAjc3NxMTE+iJNFg5wPr6+vDwcO1rl8t1cnKyu7vrdDqxUzWwbIBAILC2tvb7iiiK8Xg8k8mgRtJkzQAejyeTyajvve/v71tbW5CR9FgzQDqdHhgYUF9fWVm5vb1lP08TFgwQj8dHR0fV1y8uLvb399nP05zVAvj9fs1Nplwuz83NKYrCfqTmLBXA6XQeHR11d3c3XJdleXZ29unpCTJVc5YKsLOzMzg4qL6+ubmZz+fZz9MK6wQYGxuLRqPq69fX18lkkv08LbJIAK/Xu7e3p75erVaDweDn5yf7kVpkhQD1Iwf1QwsLC3d3d+xHap0VAmxsbNSPHH5LpVJnZ2fs5/kj/Aaw2WytHCMHAoHV1VX19VKptLy8bMBcbcZpAJvNdnh4mMvl7PZmHx1rcuQwPT399vZm5IztgflkXHO1Zz8YDNa+DYfDX19fmj9poiMHPdy9AhqefUmSstms5utgfn5e88jh8vKSwyMHPXwFaHj2azQb+P1+zXf35XI5Go1yeOSgh68AMzMzDc9+jSRJqVSqvtf39PScnp6qjxy+v79DoRCfRw56+AqQyWQODg40H5qamqrfk7e3t30+n/pnkslkoVAwdsR24+smrChKIpEQBCEWi6kflSRJEITz83MzHjno4SuAIAiKoiwuLnZ1dYXDYfWjkiSNj4+rr7+8vExOTvJ85KCHry2oRpblWCymtxd1dGjMnEgk7u/vDZ7LEDwGEH72Ir0GDdLpNP9HDno4DSC03KBUKi0tLbEZyQj8BhBaaGCiIwc9XAcQ/quBiY4c9PAeQNBvYK4jBz0mCCD8vDfNZrP1Kw8PD5FIxERHDnrMEUD493tTWZYjkcjz8zN6qDbg7hexJuq/J1cqFW4/5fCnzBRA+NmLIP+ngEFMFkAQBFmW0SO0k2nuAVZFAcAoABgFAMPchF0u1+PjI2RpPS6XC7IuJoAoih6PB7I0b2gLAqMAYBQAjAKAsbgJFwqFj48PBgu1V7FYZLCK6HA4GCxD9NAWBEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAM/w09OVv8/27rd88fxl7WEmvADAKAEYBwCgAGP1FDIxeAWAUAIwCgFEAMAoARgHAKAAYBQCjAGAUAIwCgFEAMAoARgHAKAAYBQCjAGAUAIwCgFEAsH8APY9b66OuIOoAAAAASUVORK5CYII="
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAABmJLR0QA/wD/AP+gvaeTAAAEr0lEQVR4nO3cz0syWxzH8ZnUsjZqmxbZH6DQPuKSf0GLqFlkpKVgGNmqX1DrbBPRqkgTtCJo06JF7QS5C6FNtHFdkJAU2Sbo18xdSNJ1Zrw+4JzPmbnf16rG4HzxjWfs5POIDodDIDgd6AH+7ygAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAmJ3BGqFQaGhoiMFC7VUsFnO5nNGrsAgwMjISCoUYLNRenZ2dDALQFgRGAcAoABgFAGNxE1ZTFKVarUKW1uN2u0VRZL8uJsDr62tfXx9kaT2VSsXtdrNfl7YgMAoARgHAKAAYBQCjAGAUAIwCgFk/gM/ns9ls6Cl0WTyA1+vN5/NXV1f9/f3oWbRZOYDdbj8+Pu7t7Q0EAjc3NxMTE+iJNFg5wPr6+vDwcO1rl8t1cnKyu7vrdDqxUzWwbIBAILC2tvb7iiiK8Xg8k8mgRtJkzQAejyeTyajvve/v71tbW5CR9FgzQDqdHhgYUF9fWVm5vb1lP08TFgwQj8dHR0fV1y8uLvb399nP05zVAvj9fs1Nplwuz83NKYrCfqTmLBXA6XQeHR11d3c3XJdleXZ29unpCTJVc5YKsLOzMzg4qL6+ubmZz+fZz9MK6wQYGxuLRqPq69fX18lkkv08LbJIAK/Xu7e3p75erVaDweDn5yf7kVpkhQD1Iwf1QwsLC3d3d+xHap0VAmxsbNSPHH5LpVJnZ2fs5/kj/Aaw2WytHCMHAoHV1VX19VKptLy8bMBcbcZpAJvNdnh4mMvl7PZmHx1rcuQwPT399vZm5IztgflkXHO1Zz8YDNa+DYfDX19fmj9poiMHPdy9AhqefUmSstms5utgfn5e88jh8vKSwyMHPXwFaHj2azQb+P1+zXf35XI5Go1yeOSgh68AMzMzDc9+jSRJqVSqvtf39PScnp6qjxy+v79DoRCfRw56+AqQyWQODg40H5qamqrfk7e3t30+n/pnkslkoVAwdsR24+smrChKIpEQBCEWi6kflSRJEITz83MzHjno4SuAIAiKoiwuLnZ1dYXDYfWjkiSNj4+rr7+8vExOTvJ85KCHry2oRpblWCymtxd1dGjMnEgk7u/vDZ7LEDwGEH72Ir0GDdLpNP9HDno4DSC03KBUKi0tLbEZyQj8BhBaaGCiIwc9XAcQ/quBiY4c9PAeQNBvYK4jBz0mCCD8vDfNZrP1Kw8PD5FIxERHDnrMEUD493tTWZYjkcjz8zN6qDbg7hexJuq/J1cqFW4/5fCnzBRA+NmLIP+ngEFMFkAQBFmW0SO0k2nuAVZFAcAoABgFAMPchF0u1+PjI2RpPS6XC7IuJoAoih6PB7I0b2gLAqMAYBQAjAKAsbgJFwqFj48PBgu1V7FYZLCK6HA4GCxD9NAWBEYBwCgAGAUAowBgFACMAoBRADAKAEYBwCgAGAUAM/w09OVv8/27rd88fxl7WEmvADAKAEYBwCgAGP1FDIxeAWAUAIwCgFEAMAoARgHAKAAYBQCjAGAUAIwCgFEAMAoARgHAKAAYBQCjAGAUAIwCgFEAsH8APY9b66OuIOoAAAAASUVORK5CYII\u003d"
   },
-  "description": "Google Consent Mode v2 for Omea Consent: denied defaults (per region), the visitor's stored choice and every later change. Fire on Consent Initialization – All Pages.",
+  "description": "Google Consent Mode v2 for Omea Consent: denied defaults (per region), the visitor\u0027s stored choice and every later change. Fire on Consent Initialization – All Pages.",
   "containerContexts": [
     "WEB"
   ]
@@ -36,7 +36,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "LABEL",
     "name": "intro",
-    "displayName": "Sets Google Consent Mode v2 from <strong>Omea Consent</strong>: the default state before the visitor chooses, the stored choice of a returning visitor and every later change. Fire this tag on the <strong>Consent Initialization – All Pages</strong> trigger. On WordPress pages the Omea Consent plugin already sets all of this in the page head, before Google Tag Manager loads; this tag then does nothing (see Advanced)."
+    "displayName": "Sets Google Consent Mode v2 from \u003cstrong\u003eOmea Consent\u003c/strong\u003e: the default state before the visitor chooses, the stored choice of a returning visitor and every later change. Fire this tag on the \u003cstrong\u003eConsent Initialization – All Pages\u003c/strong\u003e trigger. On WordPress pages the Omea Consent plugin already sets all of this in the page head, before Google Tag Manager loads; this tag then does nothing (see Advanced)."
   },
   {
     "type": "GROUP",
@@ -65,7 +65,7 @@ ___TEMPLATE_PARAMETERS___
         ],
         "simpleValueType": true,
         "defaultValue": "opt_in",
-        "help": "Use the consent model set in Omea Consent. <strong>Ask first</strong>: analytics_storage, ad_storage, ad_user_data, ad_personalization, functionality_storage and personalization_storage are denied until the visitor chooses. <strong>Opt-out</strong> and <strong>No banner</strong>: granted, except the ad types when the browser sends Global Privacy Control. security_storage is always granted. Applies everywhere except the regions below."
+        "help": "Use the consent model set in Omea Consent. \u003cstrong\u003eAsk first\u003c/strong\u003e: analytics_storage, ad_storage, ad_user_data, ad_personalization, functionality_storage and personalization_storage are denied until the visitor chooses. \u003cstrong\u003eOpt-out\u003c/strong\u003e and \u003cstrong\u003eNo banner\u003c/strong\u003e: granted. security_storage is always granted. Applies everywhere except the regions below."
       },
       {
         "type": "PARAM_TABLE",
@@ -113,7 +113,7 @@ ___TEMPLATE_PARAMETERS___
             "isUnique": false
           }
         ],
-        "help": "A different default for some regions, as in Omea Consent Pro's rules per region. Comma-separated <a href=\"https://en.wikipedia.org/wiki/ISO_3166-2\">ISO 3166-2</a> codes (country or region). Google applies the most specific row for the visitor."
+        "help": "A different default for some regions, as in Omea Consent Pro\u0027s rules per region. Comma-separated \u003ca href\u003d\"https://en.wikipedia.org/wiki/ISO_3166-2\"\u003eISO 3166-2\u003c/a\u003e codes (country or region). Google applies the most specific row for the visitor."
       },
       {
         "type": "TEXT",
@@ -127,7 +127,7 @@ ___TEMPLATE_PARAMETERS___
             "type": "NON_NEGATIVE_NUMBER"
           }
         ],
-        "help": "How long Google tags wait for the banner's update before they use the default. 500 is what Omea Consent uses; 0 leaves it out."
+        "help": "How long Google tags wait for the banner\u0027s update before they use the default. 500 is what Omea Consent uses; 0 leaves it out."
       }
     ]
   },
@@ -179,7 +179,6 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 // Omea Consent – Google Consent Mode v2 for Google Tag Manager.
 // Fire on "Consent Initialization – All Pages". Mirrors what the Omea Consent
 // plugin prints in <head> on WordPress pages, for pages where GTM sets it instead.
-const callInWindow = require('callInWindow');
 const copyFromWindow = require('copyFromWindow');
 const getCookieValues = require('getCookieValues');
 const getType = require('getType');
@@ -218,14 +217,14 @@ const cleanId = (value) => {
 };
 
 // Default state for one consent model, as the plugin builds it:
-// opt_in = denied until the visitor chooses; opt_out / none = granted, except the
-// ad types when the browser sends Global Privacy Control.
-const stateFor = (model, gpc) => {
+// opt_in = denied until the visitor chooses; opt_out / none = granted. (GTM's sandbox
+// can't read navigator.globalPrivacyControl, so the template doesn't apply GPC.)
+const stateFor = (model) => {
   const granted = model === 'opt_out' || model === 'none';
   const state = {};
   CATEGORIES.forEach((category) => {
     SIGNALS[category].forEach((type) => {
-      state[type] = granted && !(gpc && category === 'marketing') ? 'granted' : 'denied';
+      state[type] = granted ? 'granted' : 'denied';
     });
   });
   state.security_storage = 'granted';
@@ -252,29 +251,13 @@ const choiceState = (choice) => {
   return state;
 };
 
-// The last state applied from the cookie on this page ('' = none yet). The banner
-// announces the same choice again when it starts: that sends nothing new.
-let applied = '';
-const apply = (choice) => {
-  const state = choiceState(choice);
-  const key = JSON.stringify(state);
-  if (key === applied) {
-    return;
-  }
-  applied = key;
-  updateConsentState(state);
-};
-
-// Omea fires `cmp:consent` when the banner starts and on every choice, after it has
-// written the cookie. A record flagged _d is an opt-out region's default, not a choice:
-// the defaults cover it. No record after a choice was applied means it was withdrawn or
-// expired: everything optional is denied. No record before that: the defaults still hold.
-const onConsent = () => {
+// A returning visitor's stored choice. A record flagged _d is an opt-out region's
+// default, not a choice: the defaults cover it. Every later change is sent by Omea's
+// own banner code on the page (gtag consent update on each choice).
+const applyStoredChoice = () => {
   const choice = readChoice();
   if (choice && !choice._d) {
-    apply(choice);
-  } else if (!choice && applied !== '') {
-    apply(null);
+    updateConsentState(choiceState(choice));
   }
 };
 
@@ -298,7 +281,6 @@ const main = () => {
     gtagSet('url_passthrough', true);
   }
 
-  const gpc = copyFromWindow('navigator.globalPrivacyControl') === true;
   const wait = makeNumber(data.waitForUpdate);
   const rows = getType(data.regionDefaults) === 'array' ? data.regionDefaults : [];
   rows.forEach((row) => {
@@ -308,25 +290,21 @@ const main = () => {
     if (regions.length === 0) {
       return;
     }
-    const state = stateFor(row.model, gpc);
+    const state = stateFor(row.model);
     state.region = regions;
     if (wait > 0) {
       state.wait_for_update = wait;
     }
     setDefaultConsentState(state);
   });
-  const state = stateFor(data.defaultModel, gpc);
+  const state = stateFor(data.defaultModel);
   if (wait > 0) {
     state.wait_for_update = wait;
   }
   setDefaultConsentState(state);
 
   // A returning visitor: the stored choice right away.
-  const choice = readChoice();
-  if (choice && !choice._d) {
-    apply(choice);
-  }
-  callInWindow('addEventListener', 'cmp:consent', onConsent);
+  applyStoredChoice();
 };
 
 main();
@@ -444,84 +422,6 @@ ___WEB_PERMISSIONS___
                   {
                     "type": 8,
                     "boolean": false
-                  }
-                ]
-              },
-              {
-                "type": 3,
-                "mapKey": [
-                  {
-                    "type": 1,
-                    "string": "key"
-                  },
-                  {
-                    "type": 1,
-                    "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "string": "write"
-                  },
-                  {
-                    "type": 1,
-                    "string": "execute"
-                  }
-                ],
-                "mapValue": [
-                  {
-                    "type": 1,
-                    "string": "navigator.globalPrivacyControl"
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  }
-                ]
-              },
-              {
-                "type": 3,
-                "mapKey": [
-                  {
-                    "type": 1,
-                    "string": "key"
-                  },
-                  {
-                    "type": 1,
-                    "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "string": "write"
-                  },
-                  {
-                    "type": 1,
-                    "string": "execute"
-                  }
-                ],
-                "mapValue": [
-                  {
-                    "type": 1,
-                    "string": "addEventListener"
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
                   }
                 ]
               }
@@ -847,16 +747,15 @@ ___WEB_PERMISSIONS___
 ___TESTS___
 
 scenarios:
-- name: Defaults – everything optional denied, wait_for_update, ads_data_redaction, listener
+- name: Defaults - everything optional denied, wait for update, ads data redaction
   code: |-
     runCode(mockData);
     assertApi('setDefaultConsentState').wasCalledWith(withWait(ALL_DENIED, 500));
     assertApi('gtagSet').wasCalledWith('ads_data_redaction', true);
     assertApi('gtagSet').wasNotCalledWith('url_passthrough', true);
     assertApi('updateConsentState').wasNotCalled();
-    assertApi('callInWindow').wasCalled();
     assertApi('gtmOnSuccess').wasCalled();
-- name: Developer ID – Omea's ID is sent first, before the defaults
+- name: Developer ID - the Omea ID is sent first, before the defaults
   code: |-
     const order = [];
     mock('gtagSet', (key, value) => { order.push(key + '=' + value); });
@@ -865,7 +764,7 @@ scenarios:
     assertThat(order[0]).isEqualTo('developer_id.dZTMwN2=true');
     assertThat(order.indexOf('default') > 0).isTrue();
     assertThat(order.filter((k) => k.indexOf('developer_id') === 0)).hasLength(1);
-- name: Region rows – own default per region, then the global one
+- name: Region rows - own default per region, then the global one
   code: |-
     let calls = 0;
     mock('setDefaultConsentState', () => { calls = calls + 1; });
@@ -875,7 +774,7 @@ scenarios:
     ];
     runCode(mockData);
     assertThat(calls).isEqualTo(2);
-- name: Region rows – values
+- name: Region rows - values
   code: |-
     mockData.regionDefaults = [{region: 'us-ca, US-CO', model: 'opt_out'}];
     runCode(mockData);
@@ -883,23 +782,13 @@ scenarios:
     usState.region = ['US-CA', 'US-CO'];
     assertApi('setDefaultConsentState').wasCalledWith(usState);
     assertApi('setDefaultConsentState').wasCalledWith(withWait(ALL_DENIED, 500));
-- name: Global Privacy Control keeps the ad types denied where defaults are granted
-  code: |-
-    windowValues['navigator.globalPrivacyControl'] = true;
-    mockData.defaultModel = 'opt_out';
-    runCode(mockData);
-    const expected = withWait(ALL_GRANTED, 500);
-    expected.ad_storage = 'denied';
-    expected.ad_user_data = 'denied';
-    expected.ad_personalization = 'denied';
-    assertApi('setDefaultConsentState').wasCalledWith(expected);
-- name: No banner (none) model – granted
+- name: No banner (none) model - granted
   code: |-
     mockData.defaultModel = 'none';
     mockData.waitForUpdate = 0;
     runCode(mockData);
     assertApi('setDefaultConsentState').wasCalledWith(ALL_GRANTED);
-- name: Returning visitor – the stored choice is applied at once
+- name: Returning visitor - the stored choice is applied at once
   code: |-
     cookieValue = JSON.stringify({necessary: true, statistics: true, functional: false, marketing: true, _t: 1762560000000, _v: 'abc'});
     runCode(mockData);
@@ -911,17 +800,7 @@ scenarios:
       ad_user_data: 'granted',
       ad_personalization: 'granted'
     });
-- name: The same choice announced again sends no second update
-  code: |-
-    let listener;
-    let updates = 0;
-    mock('callInWindow', (path, type, fn) => { listener = fn; });
-    mock('updateConsentState', () => { updates = updates + 1; });
-    cookieValue = JSON.stringify({necessary: true, statistics: true, functional: true, marketing: true, _t: 1762560000000});
-    runCode(mockData);
-    listener();
-    assertThat(updates).isEqualTo(1);
-- name: An opt-out region's default record (_d) is not a choice
+- name: The default record of an opt-out region is not a choice
   code: |-
     cookieValue = JSON.stringify({necessary: true, statistics: true, functional: true, marketing: true, _d: 1});
     runCode(mockData);
@@ -932,64 +811,25 @@ scenarios:
     runCode(mockData);
     assertApi('updateConsentState').wasNotCalled();
     assertApi('gtmOnSuccess').wasCalled();
-- name: A new choice (cmp-consent event) is applied; a withdrawn one denies everything
-  code: |-
-    let listener;
-    mock('callInWindow', (path, type, fn) => {
-      if (path === 'addEventListener' && type === 'cmp:consent') {
-        listener = fn;
-      }
-    });
-    runCode(mockData);
-    assertThat(listener).isDefined();
-    cookieValue = JSON.stringify({necessary: true, statistics: false, functional: true, marketing: false, _t: 1762560000000});
-    listener();
-    assertApi('updateConsentState').wasCalledWith({
-      analytics_storage: 'denied',
-      functionality_storage: 'granted',
-      personalization_storage: 'granted',
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied'
-    });
-    cookieValue = undefined;
-    listener();
-    assertApi('updateConsentState').wasCalledWith(NO_CHOICE);
-- name: A cmp-consent event without any choice yet (the banner starting) changes nothing
-  code: |-
-    let listener;
-    mock('callInWindow', (path, type, fn) => { listener = fn; });
-    runCode(mockData);
-    listener();
-    assertApi('updateConsentState').wasNotCalled();
-- name: A cmp-consent event with an opt-out default record (_d) changes nothing
-  code: |-
-    let listener;
-    mock('callInWindow', (path, type, fn) => { listener = fn; });
-    runCode(mockData);
-    cookieValue = JSON.stringify({necessary: true, statistics: true, functional: true, marketing: true, _d: 1});
-    listener();
-    assertApi('updateConsentState').wasNotCalled();
-- name: Omea's own head code on the page – the template leaves Consent Mode to it
+- name: Omea head code on the page - the template leaves Consent Mode to it
   code: |-
     windowValues.omeaConsentModeDefaults = 1;
     runCode(mockData);
     assertApi('setDefaultConsentState').wasNotCalled();
     assertApi('updateConsentState').wasNotCalled();
-    assertApi('callInWindow').wasNotCalled();
     assertApi('setInWindow').wasNotCalled();
     assertApi('gtmOnSuccess').wasCalled();
-- name: Omea's head code on the page, skipping switched off – defaults set anyway
+- name: Omea head code on the page, skipping switched off - defaults set anyway
   code: |-
     windowValues.omeaConsentModeDefaults = 1;
     mockData.skipWhenOmeaHead = false;
     runCode(mockData);
     assertApi('setDefaultConsentState').wasCalledWith(withWait(ALL_DENIED, 500));
-- name: Marks the page so Omea's embed line doesn't set the defaults again
+- name: Marks the page so the Omea embed line does not set the defaults again
   code: |-
     runCode(mockData);
     assertApi('setInWindow').wasCalledWith('omeaConsentGtmTemplate', true, true);
-- name: url_passthrough when switched on; ads_data_redaction off when unticked
+- name: URL passthrough when switched on, ads data redaction off when unticked
   code: |-
     mockData.urlPassthrough = true;
     mockData.adsDataRedaction = false;
@@ -1050,3 +890,5 @@ setup: |-
 ___NOTES___
 
 Omea Consent (https://wordpress.org/plugins/omea-consent/) by Cultmetrics.
+
+

@@ -15,7 +15,6 @@
 homepage: "https://wordpress.org/plugins/omea-consent/"
 documentation: "https://support.cultmetrics.com/omea-consent/gtm-consent-mode-wordpress/"
 versions:
-  # Newest first. Before submitting: the SHA of the public repository's commit that
-  # contains this template.tpl (README.md, "Submitting to the gallery").
-  - sha: REPLACE_WITH_COMMIT_SHA
+  # Newest first: the SHA of the public repository's commit that contains this template.tpl.
+  - sha: ac0d66f72e8f20de5f3e8e8c696fc61446db7fb9
     changeNotes: Initial release.

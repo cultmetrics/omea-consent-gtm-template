@@ -3,7 +3,7 @@
 A Google Tag Manager tag template (sandboxed JavaScript) that sets Google Consent Mode v2
 from [Omea Consent](https://wordpress.org/plugins/omea-consent/), the consent banner for
 WordPress by [Cultmetrics](https://cultmetrics.com/). Documentation:
-[Google Tag Manager consent mode on WordPress](https://support.cultmetrics.com/omea-consent/gtm-consent-mode-wordpress/).
+[Google Tag Manager consent mode on WordPress](https://www.cultmetrics.com/support/omea-consent/gtm-consent-mode-wordpress/).
 
 ## What the tag does
 

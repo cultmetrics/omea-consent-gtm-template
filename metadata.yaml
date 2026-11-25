@@ -13,7 +13,7 @@
 # limitations under the License.
 
 homepage: "https://wordpress.org/plugins/omea-consent/"
-documentation: "https://support.cultmetrics.com/omea-consent/gtm-consent-mode-wordpress/"
+documentation: "https://www.cultmetrics.com/support/omea-consent/gtm-consent-mode-wordpress/"
 versions:
   # Newest first: the SHA of the public repository's commit that contains this template.tpl.
   - sha: e229c68adca042b400cb7b5ec10bb36797b7cb50

@@ -86,7 +86,7 @@ LICENSE, metadata.yaml).
 ## Support
 
 Open an issue in this repository, or see
-[support.cultmetrics.com](https://support.cultmetrics.com/omea-consent/).
+[cultmetrics.com/support](https://www.cultmetrics.com/support/omea-consent/).
 
 ## License
 
